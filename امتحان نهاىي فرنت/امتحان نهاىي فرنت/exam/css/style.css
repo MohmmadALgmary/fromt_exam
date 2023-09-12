@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+  list-style: none;
+}
+
+/* ================================== */
+
+/* Global style css  */
+
+
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  padding: 0px 100px ;
+ 
+}
+a{
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+
+}
+
+:root {
+  --White--color: #ffffff;
+  --orange--color: #fbb03b;
+  --orange-lite-Bg--color: #fff3df;
+  --lite-black-text--color: #a8a8a8;
+}
+nav a{
+    height: 70px !important;
+}
+nav.navbar-toggler{
+border-color: #ffffff;
+}
+.border{
+    color: #fff;
+    border-bottom: 4px #F8A22F solid !important;
+}
+
+
+main img{
+   height: 400px !important;
+ 
+
+}
+main .soaclilink{
+    background-color: rebeccapurple;
+    position: absolute;
+    left: 2rem;
+    display: flex;
+    gap: 1rem;
+    top: 50%;
+    transform:rotate(90deg) translate(50%,-50%);
+    -webkit-transform:rotate(90deg) translate(50%,-50%);
+    -moz-transform:rotate(90deg) translate(50%,-50%);
+    -ms-transform:rotate(90deg) translate(50%,-50%);
+    -o-transform:rotate(90deg) translate(50%,-50%);
+}
+main .goDown{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform:translate(-50%,0);
+    -webkit-transform:translate(-50%,0);
+    -moz-transform:translate(-50%,0);
+    -ms-transform:translate(-50%,0);
+    -o-transform:translate(-50%,0);
+}
+main .goDown img{
+    height: 100px !important;
+    width: 100px !important;
+
+}
+h6{
+    background-image:linear-gradient(to left,#6156f9,#1a129f);
+    color:white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    bottom:25%;
+    left: 40%;
+    transform:translate(-10%,-50%);
+    -webkit-transform:translate(-10%,-50%);
+    -moz-transform:translate(-10%,-50%);
+    -ms-transform:translate(-10%,-50%);
+    -o-transform:translate(-10%,-50%);
+}
+h4{
+
+padding-top: 50px;
+    
+}
+   
+.link{
+    background-image: none;
+    border: 1px solid #1a129f;
+    color: #1a129f;
+}
+section .price{
+    min-height: 100vh !important;
+}
+.hehhen{
+    width: 50px !important;
+    height: 10px !important;
+    background-color: #1a129f;
+    margin: auto;
+}
+.col{
+    position: relative;
+}
+.man img{
+    width:25px;
+    height: 25px;
+}
+.foter{
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width :992px){
+    nav{
+        background-color: #faefef;
+        box-shadow: 0 1px 5px #5347ff;
+    }
+    nav a{
+        color: #5347ff !important;
+    }
+    nav button{
+        color: #5347ff !important;
+        border-color: #5347ff !important;
+    }
+    main{
+        background: none;
+    }
+}
+
